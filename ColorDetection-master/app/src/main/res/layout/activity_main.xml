@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="@drawable/main">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="505dp"
+            android:layout_marginEnd="53dp"
+            android:layout_marginBottom="313dp"
+            android:fontFamily="@font/allerbd7"
+            android:text="Color Detection"
+            android:textColor="#5DB3C1"
+            android:textSize="40dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.375"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="1.0" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <Button
+        android:id="@+id/btn_scan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="268dp"
+        android:layout_marginBottom="186dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_scan"
+        android:drawablePadding="10dp"
+        android:text="SCAN"
+        android:textColor="#5DB3C1" />
+
+    <Button
+        android:id="@+id/btn_about"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="186dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_about"
+        android:drawablePadding="10dp"
+        android:text="ABOUT"
+        android:textColor="#5DB3C1" />
+
+    <Button
+        android:id="@+id/btn_guide"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="150dp"
+        android:layout_marginBottom="186dp"
+        android:background="@android:color/transparent"
+        android:drawableTop="@drawable/ic_guide"
+        android:drawablePadding="10dp"
+        android:text="GUIDE"
+        android:textColor="#5DB3C1" />
+
+    <TextView
+        android:id="@+id/textcopy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/allerbd5"
+        android:gravity="center"
+        android:padding="16dp"
+        android:text="TextView"
+        android:textColor="#5DB3C1"
+        android:textSize="15dp" />
+
+</RelativeLayout>
