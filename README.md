@@ -7,7 +7,7 @@ More info :
 ### Prerequisites
 
 The things you need before installing the software.
-Android Studio
+* Android Studio
 
 ### Installation
 Just open with android studio then compile the apk using ur device or emulator
